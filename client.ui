@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>842</width>
+    <height>237</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:white;
+</string>
+  </property>
+  <widget class="QLabel" name="nom">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Bauhaus 93&quot;;
+color: rgb(39, 154, 192);
+background:transparent;border:0px;</string>
+   </property>
+   <property name="text">
+    <string>mohammed ali l7ammass</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="effectuer_un_achat">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>10</y>
+     <width>31</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background:rgb(210,210,210)
+;border-radius:7px;
+border:1px solid black;
+}
+QPushButton:pressed{
+border:1px solid white;
+}
+QWidget:hover{
+
+background:rgb(200,200,200)
+
+
+}
+
+QToolTip{color:rgb(255,255,255);
+background:rgb(50,50,50);
+border:1px solid white;}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>shopping-cart.png</normaloff>shopping-cart.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cridi">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>10</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Bauhaus 93&quot;;
+color: red;border:0px;background:transparent;</string>
+   </property>
+   <property name="text">
+    <string>0 dt</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableau">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>821</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    QTableWidget {
+        selection-background-color: #FFA500; /* Couleur de sélection */
+
+	border:0px;
+    }
+    
+    QTableWidget::item:hover {
+        background-color: rgb(200,200,200); /* Couleur au survol de la souris */
+  }
+    
+    QTableWidget::item:selected {
+        background-color: #FFD700; /* Couleur de sélection */
+    }
+
+    
+</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>date</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignLeading|AlignVCenter</set>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>calendar (1).png</normaloff>calendar (1).png</iconset>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ooredoo 1dt</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>télécharger (3).png</normaloff>télécharger (3).png</iconset>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ooredoo 5dt</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>télécharger (3).png</normaloff>télécharger (3).png</iconset>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>orange 1dt </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>télécharger.png</normaloff>télécharger.png</iconset>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>orange 5dt </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>télécharger.png</normaloff>télécharger.png</iconset>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>telecom 1dt </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Tunisie-Telecom.jpg</normaloff>Tunisie-Telecom.jpg</iconset>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>telecom 5dt </string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Tunisie-Telecom.jpg</normaloff>Tunisie-Telecom.jpg</iconset>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>mantant donné</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="delete_">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>10</y>
+     <width>31</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background:rgb(255,100,100)
+;border-radius:7px;
+border:1px solid black;
+}
+QPushButton:pressed{
+border:1px solid white;
+}
+QWidget:hover{
+
+background:rgb(255,140,140)
+
+
+}
+
+QToolTip{color:rgb(255,255,255);
+background:rgb(50,50,50);
+border:1px solid white;}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>delete (2).png</normaloff>delete (2).png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="recherche_achat_bouton">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>20</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background:rgb(240,240,240)
+;border-radius:2px;
+border:1px solid black;
+border-bottom-left-radius:0px;
+border-top-left-radius:0px;
+}
+QPushButton:pressed{
+border:1px solid white;
+}
+QWidget:hover{
+
+background:rgb(200,200,200)
+
+
+}
+
+QToolTip{color:rgb(255,255,255);
+background:rgb(50,50,50);
+border:1px solid white;}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>search (2).png</normaloff>search (2).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>15</width>
+     <height>15</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="afficher_tout_les_achats">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>40</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font: 75 9pt &quot;MS Shell Dlg 2&quot;;
+background:rgb(240,240,240)
+;border-radius:2px;
+border:1px solid black;
+}
+QPushButton:pressed{
+border:1px solid white;
+}
+QWidget:hover{
+
+background:rgb(200,200,200)
+
+
+}
+
+QToolTip{color:rgb(255,255,255);
+background:rgb(50,50,50);
+border:1px solid white;}</string>
+   </property>
+   <property name="text">
+    <string>afficher tout</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="rechrche_achat_line_edit">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>20</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QDateEdit{
+border-radius:2px;
+border:2px solid black;
+	color: rgb(0,0,0);
+	font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-bottom-left-radius:0px;
+border-bottom-right-radius:0px;
+border-top-right-radius:0px;
+}
+QDateEdit:hover{
+border:3px solid black;
+
+
+}
+QDateEdit:focus{
+border:3px solid rgb(0,0,0);
+
+
+}</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="buttonSymbols">
+    <enum>QAbstractSpinBox::NoButtons</enum>
+   </property>
+   <property name="displayFormat">
+    <string>yyyy-MM-dd</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="effacer_achat">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>20</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background:rgb(255,100,100)
+;border-radius:2px;
+border:1px solid black;
+}
+QPushButton:pressed{
+border:1px solid white;
+}
+QWidget:hover{
+
+background:rgb(255,140,140)
+
+
+}
+
+QToolTip{color:rgb(255,255,255);
+background:rgb(50,50,50);
+border:1px solid white;}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>delete (2).png</normaloff>delete (2).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>15</width>
+     <height>15</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="extend">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>30</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background:rgb(210,210,210)
+;border-radius:5px;
+border:1px solid black;
+border-bottom:0px;
+border-bottom-left-radius:0px;
+border-bottom-right-radius:0px;
+}
+QPushButton:pressed{
+border:1px solid white;
+}
+QWidget:hover{
+
+background:rgb(200,200,200)
+
+
+}
+
+QToolTip{color:rgb(255,255,255);
+background:rgb(50,50,50);
+border:1px solid white;}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>maximize.png</normaloff>maximize.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>delete_</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>747</x>
+     <y>21</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>834</x>
+     <y>24</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
